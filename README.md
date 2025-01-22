@@ -50,16 +50,27 @@ This is a backend system for a basic CRM (Customer Relationship Management) appl
 ### Steps to Run the Project
 
 1. **Clone the Repository**:
-   git clone https://github.com/your-username/crm-backend.git
+   ```bash
+   git clone https://github.com/msk-chaithanya-raj/crm-backend.git
    cd crm-backend
+   ```
 2. **Install Dependencies**:
+
+```bash
    npm install
+```
+
 3. **Set Up the Database**:
    Run the following command to initialize the SQLite database:
+   ```bash
    sqlite3 crm.db < database.sql
+   ```
 4. **Start the Server**:
+
+   ```bash
    npm run dev
    The server will start at http://localhost:3000.
+   ```
 
 5. **Access API Documentation**:
    Open your browser and navigate to http://localhost:3000/api-docs.
